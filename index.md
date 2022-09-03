@@ -129,7 +129,7 @@ Kun je bijvoorbeeld…
 Op de pagina waar we net begonnen, https://lab.scratch.mit.edu/face, staan onder het kopje 'Starter Projects' een paar voorbeeldprojecten.
 
 Probeer het Sound Board uit! (Die werkt met je mond.)  
-Flapping bird is ook leuk om te proberen.
+Flapping Bird is ook leuk om te proberen.
 
 ## 4. Teachable Machine
 
@@ -222,7 +222,7 @@ Voordat je daarmee verder gaat, kun je ook eerst het andere model uitproberen da
 Tot nu toe heb je modellen voor beeldherkenning uitgeprobeerd en zelfs zelf modellen getraind.
 
 
-Het wordt nóg interessanter als je die getrainde modellen kunt gebruiken om ze in het echt te gebruiken. Dat kan met ml5.js: het is software die is gemaakt om machine learning ook makkelijk te maken voor mensen die (nog) geen professionele programmeurs zijn. Met ml5 kun je in de browser kunstmatige intelligentie gebruiken.
+Het wordt nóg interessanter als je die getrainde modellen kunt gebruiken in eigen projecten. Dat kan met ml5.js. ml5 is gemaakt om machine learning makkelijk te maken voor mensen die (nog) geen professionele programmeurs zijn.
 
 
 
@@ -251,7 +251,20 @@ Test maar of dat nu werkt. Als je linksbovenaan in je scherm op de grijze afspee
 <div style="clear: both;"></div>  
 
 
-Dan gaan we nu de beeldherkenning toevoegen. Zet deze regels helemaal bovenaan in je script:
+<img alt="Scratch blok met ga naar neus" src="imgs/image150.png" style="float: right; clear: right; margin: 15px; width: 250px;"/>
+
+Dan gaan we nu de beeldherkenning toevoegen. Om te beginnen moeten we ml5 binnenhalen en dat doen we in het bestand index.html. Je komt daar door op het pijltje te klikken naast 'sketch.js', boven het script.
+<div style="clear: both;"></div>  
+
+
+
+Klik in het lijstje dat links verschijnt op index.html. Dat bestand wordt nu rechts geopend. Voeg de volgende regel toe, op een nieuwe regel net boven de regel die begint met '<link rel="stylesheet"':
+
+{{< highlight html >}}
+<script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+{{< /highlight >}}
+
+Ga nu terug naar sketch.js, en zet deze regels helemaal bovenaan in je script:
 
 {{< highlight javascript >}}
 
@@ -285,86 +298,51 @@ detector.detect(video, gotDetections);
 {{< /highlight >}}
 
 
-Voeg deze regel toe aan index.html. Zet hem op een nieuwe regel net boven de regel die begint met '<link rel="stylesheet"'.
+Tot slot willen we in beeld te zien krijgen welke objecten ml5 herkent en waar ze zijn. Zet daarom in de draw-functie deze for-loop, onder de regel die begint met 'image':
 
-{{< highlight html >}}
-<script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+{{< highlight javascript >}}
+
+for (let i = 0; i < detections.length; i++) {
+   let object = detections[i];
+   stroke(0, 255, 0);
+   strokeWeight(4);
+   noFill();
+   rect(object.x, object.y, object.width, object.height);
+   noStroke();
+   fill(255);
+   textSize(24);
+   text(object.label, object.x + 10, object.y + 24);
+}
 {{< /highlight >}}
 
 
-
-https://editor.p5js.org/codingtrain/sketches/ZNQQx2n5o
-
+Start nu het script, en ontdek welke objecten het model allemaal herkent!
 
 
-
-spel maken zoals op tiktok: je hoofd houden op een plek in het scherm.
-soundboard
-gaaf spel: https://pose.yee.gd/ (zie code?)
+Kun je nu ook…
 
 
+* alleen één bepaald object laten herkennen? (Tip: gebruik een if-statement en 'object.label')
+* Kun je ook alles laten zien behalve personen? (Tip: gebruik een if-statement en een uitroepteken)
+* geluiden laten horen als er bepaalde objecten in beeld zijn (bijvoorbeeld een ringtone als een mobiele telefoon te zien is)
 
-## Gave voorbeelden:
-
-https://ml5js.org/community/
-
-
-face mask detector trainen:
-
-https://medium.com/the-web-tub/face-mask-detector-with-ml5-js-b44ca95dc0cc
-
-
-face mask ml5:
-
-https://www.youtube.com/watch?v=hWurN0XhzLY
-
-
-ml5 examples:
-
-https://ml5js.github.io/ml5-examples/public/
-
-https://github.com/ml5js/ml5-library/tree/main/examples
-
-https://editor.p5js.org/ml5/sketches
-
-https://examples.ml5js.org/
-
-
-face recognition met ml5 en face-api:
-
-https://learn.ml5js.org/#/reference/face-api?id=models-overview
-
-
-beginners guide to ml5:
-
-https://www.youtube.com/watch?v=jmznx0Q1fP0
-
-
-
-eventueel op basis van het model dat ze trainen met die site van Google.
-
-
-
-
-
-
-
+Op https://ml5js.org/community/ staan een aantal hele gave voorbeelden van wat je verder allemaal kunt met ml5. 
+Misschien kun je een variatie maken op dit geweldige spel? https://pose.yee.gd/ (misschien kun je een beetje afkijken van hun code!)
 
 ## Extra voorbeeld 1
 
-Zien wat de computer allemaal kan: ML/gezichtsdetectie live, met je webcam, in de browser.
+Meer zien wat de computer allemaal kan herkennen aan je gezicht, live in de browser:
 
 https://vladmandic.github.io/human/demo/typescript/index.html
 
-(Laden kan even duren. Gebruik Toestaan. Schern groot maken.)
+(Laden kan even duren. Gebruik Toestaan. Scherm groot maken.)
+
 
 Tel maar eens alle verschillende kenmerken die de software kan herkennen. Het zijn er heel veel!
 
-[minstens tiens verschillende dingen; ook emoties, sekse en kijkrichting!]
-
-
 
 ## Extra voorbeeld 2
-tof voorbeeld om ze te laten uitproberen: https://www.craiyon.com/
 
-is geen beeldherkenning, maar beeld-genereren. wel AI/ML
+Tof voorbeeld om uit te proberen: https://www.craiyon.com/
+
+Dit is kunstmatige intelligentie, maar dan niet om beelden te herkénnen maar om beelden te generéren.
