@@ -32,7 +32,6 @@ Alle tekeningen zie je hier: https://quickdraw.withgoogle.com/data
 
 Vind je het ook niet grappig dat de computer nu eens van jou leert, in plaats van andersom?
 
-
 En heb jij nu een spel gespeeld, of de computer?
 
 
@@ -57,7 +56,7 @@ Dan vraagt hij "is het een smiley face?" Als je eerlijk antwoord geeft (met 'yes
 
 * Kun je hem leren dat een smiley alleen een smiley is als er ook een rondje omheen staat? (Misschien moet je de pagina even sluiten en opnieuw openen om opnieuw te beginnen.)
 * Kun je hem ook leren dat alles met een mooie ronde mond een smiley is en verder niks?
-* Kun je de software ook verkeerd opvoeden?
+* Kun je de software ook verkeerd opvoeden? Dus dat hij denkt dat iets anders een smiley is?
 
 
 ## 3: Face sensing met Scratch
@@ -66,15 +65,16 @@ Dan vraagt hij "is het een smiley face?" Als je eerlijk antwoord geeft (met 'yes
 
 Je hebt misschien al wel eens Snapchat-filters gebruikt die je er bijvoorbeeld uit laten zien als een kat of zo. Die software heeft dus niet alleen geleerd te herkennen dat er een gezicht in beeld is, maar ook wáár dat gezicht in beeld is, dus bijvoorbeeld waar de neus en de oren zich bevinden.
 
-Dat kun je zelf ook maken, ook weer met Scratch: https://lab.scratch.mit.edu/face/ 
-
-Klik op die pagina op 'Try it out'.
+Dat kun je zelf ook maken, ook weer met Scratch:
+https://playground.raise.mit.edu/create/?tutorial=getStarted
 
 In de Scratch-pagina die je dan ziet, moet je misschien even de browser toestemming geven om je webcam te gebruiken.
 
 <div style="clear: both;"></div>  
 
 Je kunt de taal veranderen in Nederlands als je op het wereldbolletje klikt: <img alt="wereldbolletje" src="imgs/image2.png" style="display: inline;">
+
+Kijk eerst even de video onderaan en doe de oefeningen om het poppetje rechts te laten bewegen, te laten praten en geluid te laten maken.
 
 
 De functies voor beeldherkenning zijn dan nog wel in het Engels. Je ziet ze als je linksonderaan klikt op 'Face Sensing'. <img alt="wereldbolletje" src="imgs/image21.png" style="display: inline; width: 100px;">
