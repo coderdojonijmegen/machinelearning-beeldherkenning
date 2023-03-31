@@ -68,16 +68,34 @@ Je hebt misschien al wel eens Snapchat-filters gebruikt die je er bijvoorbeeld u
 Dat kun je zelf ook maken, ook weer met Scratch:
 https://playground.raise.mit.edu/create/?tutorial=getStarted
 
-In de Scratch-pagina die je dan ziet, moet je misschien even de browser toestemming geven om je webcam te gebruiken.
-
-<div style="clear: both;"></div>  
-
 Je kunt de taal veranderen in Nederlands als je op het wereldbolletje klikt: <img alt="wereldbolletje" src="imgs/image2.png" style="display: inline;">
 
 Kijk eerst even de video onderaan en doe de oefeningen om het poppetje rechts te laten bewegen, te laten praten en geluid te laten maken.
 
+<div style="clear: both;"></div>  
 
-De functies voor beeldherkenning zijn dan nog wel in het Engels. Je ziet ze als je linksonderaan klikt op 'Face Sensing'. <img alt="wereldbolletje" src="imgs/image21.png" style="display: inline; width: 100px;">
+
+### Beeldherkenning met Scratch
+
+Als je het poppetje hebt laten bewegen en een geluidje toegevoegd hebt, dan kun je door naar de beeldherkenning. Klik op dit icoontje linksonderin: <img alt="extension" src="imgs/extension.png" style="display: inline; width: 100px;">
+
+Klik op 'Hand sensing' om die module toe te voegen. <img alt="hand_sensing" src="imgs/hand_sensing.png" style="display: inline; width: 100px;">
+Misschien word je dan gevraagd om de browser toestemming geven om je webcam te gebruiken.
+
+Je hebt er nu aan de linkerkant een paar blokken bijgekregen. Dit is wat elke optie betekent:
+
+|                                               |              |
+|-----------------------------------------------|--------------|
+| go to thumb/index finger/...                  | ga naar duim/wijsvinger/... (je kunt zelfs kiezen welk vingerkootje)|
+| turn video on/off/on flipped                  | zet video aan/uit/omgekeerd aan|
+| set video transparency to .. transparency     | maak video .. procent doorzichtig|
+
+* Kun je met die blokken het poppetje jouw hand laten volgen? 
+
+
+### Gezichtsherkenning
+
+Als je Deze functies voor beeldherkenning zijn nog wel in het Engels. Je ziet ze als je linksonderaan klikt op 'Face Sensing'. <img alt="face sensing" src="imgs/image21.png" style="display: inline; width: 100px;">
 
 Dit is wat elke optie betekent:
 
@@ -97,8 +115,8 @@ Dit is wat elke optie betekent:
 Maak nu met die functies je eigen face filter (net zoals in Snapchat) door sprites je hoofd te laten volgen.
 
 
-<img alt="Scratch blok met ga naar neus" src="imgs/image15.png" style="float: right; margin: 15px; width: 150px;"/> 
-<img alt="Scratch blok met ga naar neus" src="imgs/image4.png" style="float: right;margin: 15px; width: 70px;"/> 
+<img alt="sprite" src="imgs/image15.png" style="float: right; margin: 15px; width: 150px;"/> 
+<img alt="sprite" src="imgs/image4.png" style="float: right;margin: 15px; width: 70px;"/> 
 
 
 Een sprite kies je door op door rechtsonderaan op de kat met het plusje te klikken.  
