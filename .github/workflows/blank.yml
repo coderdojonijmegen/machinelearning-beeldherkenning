@@ -11,7 +11,9 @@ jobs:
     steps:
       - name: Trigger deployment site
         run: |
-           env
+           if [[ -z "${GH_PAT_REPO_WORKFLOW_CODERDOJO024}" ]]; then
+             echo "GH_PAT_REPO_WORKFLOW_CODERDOJO024 environment variable does not exist!"
+           fi
            curl --fail -L -X POST \
            -H 'Accept: application/vnd.github+json' \
            -H 'Authorization: Bearer $GH_PAT_REPO_WORKFLOW_CODERDOJO024' \
