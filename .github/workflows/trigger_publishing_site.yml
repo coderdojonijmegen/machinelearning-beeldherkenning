@@ -1,4 +1,4 @@
-name: Werk site bij
+name: Trigger publishing site
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger deployment site
+      - name: Send trigger
         run: |
            curl --fail -L -X POST \
            -H 'Accept: application/vnd.github+json' \
