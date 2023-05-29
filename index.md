@@ -4,7 +4,7 @@ date: 2022-09-02T20:53:27+02:00
 draft: false
 toc: true
 headercolor: "teal-background"
-taal: Javascript
+onderwerp: Machine Learning
 ---
 
 Hoe herkent een computer beeld?
