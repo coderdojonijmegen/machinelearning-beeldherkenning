@@ -36,6 +36,27 @@ En heb jij nu een spel gespeeld, of de computer?
 
 
 
+## 2. Software opvoeden
+Je kunt ook dingen leren aan een computer die echt nog helemaal niks weet.
+
+Open deze pagina om Scratch te leren smileys te herkennen:  
+https://scratch.mit.edu/projects/608483569/ 
+
+Maak hem groter met deze knop <img alt="knop" src="imgs/image11.png" style="display: inline; width: 30px;"> en klik op de groene vlag om te beginnen.
+
+<img alt="smiley met done knop" src="imgs/image10.png" style="float: right; width: 400px; margin: 15px;" />
+Je kunt nu een smiley tekenen, of juist een verdrietig gezichtje, of iets heel anders.
+
+Daarna klik je op 'Done'.
+
+Daarna gaat de software raden wat je getekend hebt. Je ziet bovenaan of hij denkt dat het een smiley is ("<span style="color: red">is</span> a smiley face") 
+of niet ("<span style="color: red">not</span> a smiley face").
+
+Dan vraagt hij "is het een smiley face?" Als je eerlijk antwoord geeft (met 'yes' of 'no'), dan zal hij steeds beter kunnen raden.
+
+* Kun je hem leren dat een smiley alleen een smiley is als er ook een rondje omheen staat? (Misschien moet je de pagina even sluiten en opnieuw openen om opnieuw te beginnen.)
+* Kun je hem ook leren dat alles met een mooie ronde mond een smiley is en verder niks?
+* Kun je de software ook verkeerd opvoeden? Dus dat hij denkt dat iets anders een smiley is?
 
 
 ## 3: Face sensing met Scratch
