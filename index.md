@@ -40,7 +40,7 @@ En heb jij nu een spel gespeeld, of de computer?
 Je kunt ook dingen leren aan een computer die echt nog helemaal niks weet.
 
 Open deze pagina om Scratch te leren smileys te herkennen:  
-https://scratch.mit.edu/projects/608483569/ 
+https://scratch.mit.edu/projects/417528976
 
 Maak hem groter met deze knop <img alt="knop" src="imgs/image11.png" style="display: inline; width: 30px;"> en klik op de groene vlag om te beginnen.
 
