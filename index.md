@@ -95,7 +95,9 @@ Je hebt er nu aan de linkerkant een paar blokken bijgekregen. Dit is wat elke op
 
 ### Gezichtsherkenning
 
-Als je Deze functies voor beeldherkenning zijn nog wel in het Engels. Je ziet ze als je linksonderaan klikt op 'Face Sensing'. <img alt="face sensing" src="imgs/image21.png" style="display: inline; width: 100px;">
+Ga voor dit hoofdstukje naar https://lab.scratch.mit.edu/face/#editor=true.
+
+Deze functies voor beeldherkenning zijn nog wel in het Engels. Je ziet ze als je linksonderaan klikt op 'Face Sensing'. <img alt="face sensing" src="imgs/image21.png" style="display: inline; width: 100px;">
 
 Dit is wat elke optie betekent:
 
